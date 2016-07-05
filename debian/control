@@ -1,0 +1,11 @@
+Source: maui-apt-config
+Section: admin
+Priority: optional
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: maui-apt-config
+Architecture: all
+Description: Apt configuration for the Maui.
+  This package contains the apt configuration files for Maui.
