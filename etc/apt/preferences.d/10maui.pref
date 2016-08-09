@@ -1,5 +1,5 @@
 Package: *
-Pin: release o=netrunner
+Pin: release o=netrunner,c=main
 Pin-Priority: 777
 
 Package: *
