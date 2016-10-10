@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Disable apt daily as it has potential to delay bootup
+function enable_apt_daily {
+    mkdir -p /usr/share/default-settings/orig
+
+    dpkg-divert --package maui-apt-config --remove --rename --divert /usr/share/default-settings/orig/10periodic /etc/apt/apt.conf.d/10periodic 
+}
+
+case "$1" in
+    remove|purge)
+        enable_apt_daily
+    ;;
+
+    upgrade|abort-upgrade|abort-remove|abort-deconfigure)
+
+    ;;
+
+    *)
+        echo "postrm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+exit 0

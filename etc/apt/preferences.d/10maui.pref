@@ -1,5 +1,5 @@
 Package: *
-Pin: release o=netrunner,c=main
+Pin: release o=maui-2-packages,c=main
 Pin-Priority: 777
 
 Package: *

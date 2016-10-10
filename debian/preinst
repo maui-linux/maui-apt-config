@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Disable apt daily as it has potential to delay bootup
+function disable_apt_daily {
+    mkdir -p /usr/share/default-settings/orig
+
+    dpkg-divert --package maui-apt-config --add --rename --divert /usr/share/default-settings/orig/10periodic /etc/apt/apt.conf.d/10periodic 
+}
+
+ if [ install = "$1" -o upgrade = "$1" ]; then
+    disable_apt_daily
+ fi
+ 
