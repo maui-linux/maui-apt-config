@@ -8,6 +8,18 @@ deb http://ds9-maui.s3-website.eu-central-1.amazonaws.com/maui-2 xenial main
 #deb http://ds9-maui.s3-website.eu-central-1.amazonaws.com/maui-xenial-backports xenial main
 #deb-src http://ds9-maui.s3-website.eu-central-1.amazonaws.com/maui-xenial-backports xenial main
 
+# Neon Backports
+#deb http://ds9-maui.s3-website.eu-central-1.amazonaws.com/maui-xenial-backports-neon xenial main
+#deb-src http://ds9-maui.s3-website.eu-central-1.amazonaws.com/maui-xenial-backports xenial main
+
+# Maui specific Packages Testing
+#deb http://ds9-maui.s3-website.eu-central-1.amazonaws.com/testing xenial main
+#deb-src http://ds9-maui.s3-website.eu-central-1.amazonaws.com/testing xenial main
+
+# Neon Testing
+#deb http://ds9-maui.s3-website.eu-central-1.amazonaws.com/testing-neon xenial main
+#deb-src http://ds9-maui.s3-website.eu-central-1.amazonaws.com/testing-neon xenial main
+
 # Ubuntu
 deb http://archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
 deb http://archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
