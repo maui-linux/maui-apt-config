@@ -1,5 +1,5 @@
 Package: *
-Pin: release o=maui-2 xenial,c=main
+Pin: release o=maui-3 xenial,c=main
 Pin-Priority: 777
 
 Package: *
