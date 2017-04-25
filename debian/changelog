@@ -1,3 +1,84 @@
+maui-apt-config (1.5.4) xenial; urgency=medium
+
+  * Updated for Maui 17.03
+
+ -- Leszek Lesner <leszek@zevenos.com>  Thu, 02 Mar 2017 12:57:49 +0100
+
+maui-apt-config (1.5.3) xenial; urgency=medium
+
+  * Fixed deb-src of maui-xenial-backports-neon
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 11 Jan 2017 16:26:55 +0100
+
+maui-apt-config (1.5.2) xenial; urgency=medium
+
+  * Added netrunner-keyring
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 09 Dec 2016 11:40:02 +0100
+
+maui-apt-config (1.5.1) xenial; urgency=medium
+
+  * Changed for Maui 2.1
+
+ -- Leszek Lesner <leszek@zevenos.com>  Thu, 17 Nov 2016 11:29:56 +0100
+
+maui-apt-config (1.5.0) xenial; urgency=medium
+
+  * Only use 64bit repos for Neon clones
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 14 Oct 2016 18:43:41 +0200
+
+maui-apt-config (1.4.9) xenial; urgency=medium
+
+  * Adapt comments for activated repos
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 14 Oct 2016 16:35:26 +0200
+
+maui-apt-config (1.4.8) xenial; urgency=medium
+
+  * Added backports-neon, testing, testing-neon deactivated by default
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 14 Oct 2016 16:26:58 +0200
+
+maui-apt-config (1.4.7) xenial; urgency=medium
+
+  * Added maui-xenial-backports
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 11 Oct 2016 16:44:39 +0200
+
+maui-apt-config (1.4.6) xenial; urgency=medium
+
+  * Use new ds9 maui software repos
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 10 Oct 2016 10:37:22 +0200
+
+maui-apt-config (1.4.5) xenial; urgency=medium
+
+  * Added diversion to disable apt-daily
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 26 Sep 2016 16:42:56 +0200
+
+maui-apt-config (1.4.4) xenial; urgency=medium
+
+  * Added temp component to packages.mauilinux.org
+  * Pin only main of packages.mauilinux.org
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 09 Aug 2016 13:12:33 +0200
+
+maui-apt-config (1.4.3) xenial; urgency=medium
+
+  * Fixed rules file
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 06 Jul 2016 12:02:43 +0200
+
+maui-apt-config (1.4.2) xenial; urgency=medium
+
+  * Prepared for maui
+  * Changed official package list to mauilinux.org
+  * Renamed netrunner.pref to maui.pref
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 05 Jul 2016 12:32:40 +0200
+
 maui-apt-config (1.4.1) xenial; urgency=medium
 
   * Drop kubuntu backports from postinst
